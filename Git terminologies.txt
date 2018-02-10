@@ -1,0 +1,32 @@
+GIT Terms 
+
+
+git clone - Used to copy a remote repository to a local one
+git Fetch - Gets changes from remote to local but doesnt merge to local copy
+git merge - Merges the fetched local changes
+git pull - Fetch and merge
+
+git tag - used to create tags (Commits where code is stable)
+git branch - Used to create branches
+git checkout - Used to checkout a branch and start working on it - git checkout branchname
+git reflog - Restrore deleted branch
+
+
+git-add - Adds files to staging area
+git commit - Commits changes locally
+git push - Pushes the local changes to remote(origin)
+
+git status - Get current status of local repository
+git log - Gets history commits
+
+
+HEAD - The commit at which we currently are at ! 
+
+
+Commands
+To Save pass in store mode - $ git config --global credential.helper 'store --file ~/.my-credentials'
+To create branch - git branch Feature1
+To use branch - git checkout Feature1
+To create and push branch to remote server  - git push origin Feature1
+To delete a branch on local - git branch Feature1 -d or git branch Feature1 -D (Deletes branch even if code is not merged to master)
+To delete branch remotely - git push origin Feature3 --delete
