@@ -1,0 +1,15 @@
+{
+  "name": "gulp_testsite",
+  "version": "1.0.0",
+  "description": "A test site for gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Gulp",
+    "Test"
+  ],
+  "author": "Pavan Balakrishna",
+  "license": "ISC"
+}
