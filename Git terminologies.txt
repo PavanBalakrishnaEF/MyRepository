@@ -1,6 +1,6 @@
 GIT Terms 
 
-
+git init - To create a local GIT repository
 git clone - Used to copy a remote repository to a local one
 git Fetch - Gets changes from remote to local but doesnt merge to local copy
 git merge - Merges the fetched local changes
