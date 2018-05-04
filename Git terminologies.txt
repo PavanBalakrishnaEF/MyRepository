@@ -30,3 +30,5 @@ To use branch - git checkout Feature1
 To create and push branch to remote server  - git push origin Feature1
 To delete a branch on local - git branch Feature1 -d or git branch Feature1 -D (Deletes branch even if code is not merged to master)
 To delete branch remotely - git push origin Feature3 --delete
+
+//test
